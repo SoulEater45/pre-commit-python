@@ -1,0 +1,6 @@
+- id: python-unittest
+  name: "Python unittest"
+  entry: scripts/python-unittest.sh
+  files: ""
+  language: "script"
+  description: "Runs `python -m unittest`"
