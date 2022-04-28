@@ -4,3 +4,9 @@
   files: ""
   language: "script"
   description: "Runs `python -m unittest`"
+- id: python-pytest
+  name: "Python pytest"
+  entry: scripts/python-pytest.sh
+  files: ""
+  language: "script"
+  description: "Runs `python -m pytest`"
