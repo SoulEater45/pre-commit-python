@@ -1,12 +1,12 @@
 - id: python-unittest
   name: "Python unittest"
   entry: scripts/python-unittest.sh
-  files: ""
+  pass_filenames: false
   language: "script"
   description: "Runs `python -m unittest`"
 - id: python-pytest
   name: "Python pytest"
   entry: scripts/python-pytest.sh
-  files: ""
+  pass_filenames: false
   language: "script"
   description: "Runs `python -m pytest`"
